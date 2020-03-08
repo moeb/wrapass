@@ -1,0 +1,8 @@
+#!/usr/bin/env python3
+
+from wrapssh import ssh_pass
+
+if __name__ == "__main__":
+    # use on the cmdline like scp
+    # but replace scp with pascp
+    ssh_pass("scp")
